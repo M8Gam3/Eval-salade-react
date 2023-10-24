@@ -1,0 +1,47 @@
+.newsletter {
+    max-width: 28rem;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  .newsletter__form-group {
+    display: flex;
+    column-gap: 0.8rem;
+  }
+  .newsletter input {
+    padding: 0.8rem 1.2rem;
+    border-radius: 1.2rem;
+    flex-grow: 1;
+  }
+  
+  .btn {
+    padding: 0.5rem 1.2rem;
+    border-radius: 1.2rem;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+  }
+  .btn.btn--primary {
+    background-color: #00473C;
+    color: #FFFFFF;
+  }
+  .btn.btn--primary:hover {
+    background-color: transparent;
+    border: 1px solid #0E150E;
+    color: #0E150E;
+  }
+  .btn.btn--warning {
+    background-color: #E6FF55;
+    color: #00473C;
+  }
+  .btn.btn--warning:hover {
+    background-color: #00473C;
+    color: #FFFFFF;
+  }
+  .btn.btn--warning::after {
+    content: "→";
+    line-height: 1.5;
+    transition: margin-left 0.3s ease-in-out;
+  }
+  .btn.btn--warning:hover::after {
+    margin-left: 0.8rem;
+  }

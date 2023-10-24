@@ -1,0 +1,41 @@
+@use './variables' as v;
+
+.btn {
+    padding: .5rem 1.2rem;
+    border-radius: 1.2rem;
+    font-weight: 500;
+    transition: all .2s ease-in-out;
+    position: relative;
+
+    &.btn--primary {
+        background-color: v.$accent-1;
+        color: v.$light;
+
+        &:hover {
+            background-color: transparent;
+            border: 1px solid v.$dark;
+            color: v.$dark;
+        }
+    }
+
+    &.btn--warning {
+        background-color: v.$accent-2;
+        ;
+        color: v.$accent-1;
+
+        &:hover {
+            background-color: v.$accent-1;
+            color: v.$light;
+        }
+
+        &::after {
+            content: "→";
+            line-height: 1.5;
+            transition: margin-left .3s ease-in-out;
+        }
+
+        &:hover::after {
+            margin-left: .8rem;
+        }
+    }
+}

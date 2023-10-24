@@ -1,0 +1,45 @@
+// @use './mixins.scss' as m;
+// @use './variables' as *;
+
+// .container {
+//     max-width: 90rem;
+//     width: 100%;
+//     margin: 0 auto;
+//     padding: 0 2.5rem;
+//     margin: 2rem auto;
+// }
+
+// /*
+// *|----------------------------------------------------------------------------------------
+// *| $HEADER
+// *|----------------------------------------------------------------------------------------
+// */
+
+// .header {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: space-between;
+
+//     &__nav {
+//         display: flex;
+//         justify-content: space-between;
+//         align-items: center;
+//         padding: 1rem 0;
+
+//         &-left,
+//         &-right {
+//             display: flex;
+//             column-gap: 2rem;
+//         }
+//     }
+// }
+
+
+
+// .footer {
+//     background-color: $info;
+//     .container {
+//         @include m.grid-responsive($auto-grid-min-size: 18rem);
+//         margin: auto;
+//     }
+// }

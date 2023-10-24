@@ -1,0 +1,22 @@
+.bowl-signature {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(32rem, 1fr));
+  grid-template-rows: 810px;
+}
+.bowl-signature img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.bowl-signature__content {
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #E8DCC6;
+}
+.bowl-signature__content-image {
+  width: 607px;
+  height: 607px;
+  flex-shrink: 0;
+}

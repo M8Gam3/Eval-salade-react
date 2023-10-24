@@ -1,0 +1,53 @@
+[
+  {
+    "name": "Guacamole Greens",
+    "description": "Roasted chicken, avocado, tomatoes, red onions, shredded cabbage, tortilla chips, spring mix, chopped romaine, lime squeeze, lime cilantro jalapeño vinaigrette",
+    "img": "54a83dd53857dab2df508abc0829aa44155d88dd.png"
+  },
+  {
+    "name": "Buffalo Chicken Bowl",
+    "description": "Blackened chicken, chopped pickles, tomatoes, cilantro, blue cheese, za’atar breadcrumbs, shredded kale, chopped romaine, sweetgreen hot sauce, caesar dressing",
+    "img": "a66926df4e90c2ee74768a27ad25e4e26c64760e.png"
+  },
+  {
+    "name": "The Reneé Rapp Bowl",
+    "description": "Roasted tofu, cucumbers, red onions, shredded cabbage, spicy broccoli, tomatoes, cilantro, spring mix, spicy cashew dressing",
+    "img": "2b758ea3109d744a690999ce81add250e0ac0fc0.png",
+    "badge": "Online Only"
+  },
+  {
+    "name": "Charcuterie Cobb",
+    "description": "Salami, hard boiled egg, red onions, tomatoes, blue cheese, roasted almonds, spring mix, chopped romaine, balsamic vinaigrette",
+    "img": "377971d17d8f3bd0e011d90b4fdccc1089bd17c9.png"
+  },
+  {
+    "name": "BBQ Chicken Salad",
+    "description": "Blackened chicken, shredded cabbage, red onions, tomatoes, apples, cilantro, tortilla chips, chopped romaine, shredded kale, honey BBQ sauce, green goddess ranch",
+    "img": "258d5260c49df0f14844a2e9aa91369d1c13c788.png"
+  },
+  {
+    "name": "Hummus Crunch Salad",
+    "description": "Hummus, olives, chickpeas, tomatoes, cucumbers, shredded cabbage, red onions, basil, za’atar breadcrumbs, chopped romaine, shredded kale, pesto vinaigrette",
+    "img": "1ea709f0f6fa84f17d82c3e084244abe46d71af1.png"
+  },
+  {
+    "name": "Kale Caesar",
+    "description": "Roasted chicken, tomatoes, parmesan crisps, shaved parmesan, shredded kale, chopped romaine, lime squeeze, caesar dressing",
+    "img": "ced7667cfdfb42b4afab365087934ab9c11d4a27.png"
+  },
+  {
+    "name": "Italian Chopped",
+    "description": "Salami, spicy banana peppers, heirloom tomatoes, cucumbers, chickpeas, red onions, shaved parmesan, chopped romaine, shredded kale, red wine vinaigrette",
+    "img": "20b3cae0ee25f9a81f202bcfdfc34ed989e52e8a.png"
+  },
+  {
+    "name": "Super Green Goddess",
+    "description": "Black lentils, chickpeas, roasted sweet potatoes, raw carrots, spicy broccoli, shredded cabbage, raw beets, roasted almonds, baby spinach, shredded kale, green goddess ranch",
+    "img": "df7ebb9885fb2f5e30cf463159cd9ae317c2d626.png"
+  },
+  {
+    "name": "Garden Cobb",
+    "description": "Avocado, hard boiled egg, roasted sweet potatoes, tomatoes, red onions, blue cheese, roasted almonds, spring mix, chopped romaine, balsamic vinaigrette",
+    "img": "47570f8c9bda74b0c77006ee3f00aeabeaed2dc0.png"
+  }
+]

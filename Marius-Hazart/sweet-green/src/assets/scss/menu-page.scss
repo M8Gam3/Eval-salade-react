@@ -1,0 +1,143 @@
+// @use './variables' as *;
+// @use './mixins.scss' as m;
+
+// /*
+// *|----------------------------------------------------------------------------------------
+// *| $MENU
+// *|----------------------------------------------------------------------------------------
+// */
+// .menu-hero {
+
+//     .container {
+//         display: flex;
+//         flex-direction: column;
+//         row-gap: 2rem;
+//     }
+
+//     .menu-hero__title {
+//         text-align: center;
+//     }
+
+//     &__picture img {
+//         width: 100%;
+//         max-width: 100%;
+//         object-fit: cover;
+//     }
+
+//     &__body {
+//         display: flex;
+//         justify-content: space-between;
+//         align-items: baseline;
+//     }
+
+//     &__text {
+//         flex-grow: 1;
+
+//         h2 {
+//             margin: 0;
+//         }
+
+//         p {
+//             font-size: 2.4rem;
+//             line-height: 1.5;
+//         }
+//     }
+
+//     &__details {
+//         width: 20%;
+//     }
+// }
+
+// .menu-list__items {
+//     @include m.grid-responsive;
+// }
+
+// .menu-list__item {
+//     &-picture img {
+//         width: 100%;
+//     }
+// }
+
+
+// .infos-list {
+//     @include m.grid-responsive;
+//     padding: 4rem 1rem;
+//     gap: 2rem;
+
+//     &__title {
+//         font-size: 1.2rem;
+//         margin-bottom: 1rem;
+//         color: rgba(0, 0, 0, .7);
+//     }
+
+//     &__subtitle {
+//         font-size: 1.5rem;
+//         margin: 1rem 0;
+//     }
+
+//     &__item {
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
+//         gap: .3rem;
+//         background-color: $bg-card;
+//         padding: 1rem 1.2rem;
+//     }
+// }
+
+
+// /*
+// *|----------------------------------------------------------------------------------------
+// *| $INFOS
+// *|----------------------------------------------------------------------------------------
+// */
+
+
+// .bowl-signature {
+//     display: grid;
+//     grid-template-columns: repeat(2, minmax(32rem, 1fr));
+//     grid-template-rows: 810px;
+
+//     img {
+//         height: 100%;
+//         width: 100%;
+//         object-fit: cover;
+//     }
+
+//     &__content {
+//         padding: 2rem 0;
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
+//         background-color: $bg-card;
+
+//         &-image {
+//             width: 607px;
+//             height: 607px;
+//             flex-shrink: 0;
+//         }
+//     }
+// }
+
+// /*
+// *|----------------------------------------------------------------------------------------
+// *| $NEWSLETTER
+// *|----------------------------------------------------------------------------------------
+// */
+
+// .newsletter {
+//     max-width: 28rem;
+//     margin: 0 auto;
+//     padding: 2rem;
+
+//     &__form-group {
+//         display: flex;
+//         column-gap: .8rem;
+//     }
+
+//     input {
+//         padding: .8rem 1.2rem;
+//         border-radius: 1.2rem;
+//         flex-grow: 1;
+//     }
+// }
